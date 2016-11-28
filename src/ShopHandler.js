@@ -6,7 +6,7 @@ module.exports = Shop
 
 Shop.prototype.setup = function() {
 	this.items.push( new item("Score Multiplier", 10) )
-	his.items.push( new item("Some other upgrade", 50) )
+	this.items.push( new item("Some other upgrade", 50) )
 }
 
 Shop.prototype.getAvailable = function(playerTracker) {
