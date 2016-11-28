@@ -1,0 +1,140 @@
+body {
+    background-color: #34495e;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    overflow: hidden;
+}
+canvas {
+    margin: auto;
+    left: 0; top: 0; right: 0; bottom:0;
+    position: absolute;
+    width: 384px;
+    height: 384px;
+    background-color: white;
+    padding: 0;
+    box-shadow: 0px 3px 1px 2px rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
+#nameID {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    font-size: 1.2em;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+#UsrInfo {
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    font-size: 1.2em;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+#nameID:hover {
+    cursor: pointer;
+}
+#users {
+    position: absolute;
+    width: 100%;
+    font-size: 1.2em;
+    text-align: center;
+    color: #ffe300;
+    bottom: 10%;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+#users:hover {
+    cursor: pointer;
+}
+#div_lb,
+#lb_detail {
+    width: 200px;
+    font-weight: bold;
+    padding-bottom: 10px !important
+}
+#div_lb,
+#div_score {
+    font-family: ubuntu;
+    background-color: rgba(0, 0, 0, .5);
+    cursor: default;
+    -khtml-user-select: none;
+    position: absolute
+}
+#div_lb {
+    color: #fff;
+    right: 7px;
+    top: 14px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 3px;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+#div_lb>.header {
+    color: #2196F3;
+    font-size: 30px;
+    font-weight: 500;
+    overflow: hidden
+}
+#lb_detail>div {
+    float: left;
+    width: 100%;
+    font-size: 14px
+}
+#lb_detail .self {
+    color: #FAA
+}
+#lb_detail .role {
+    color: #F0F
+}
+#div_score {
+    color: #006899;
+    left: 14px;
+    top: 5px;
+    font-size: 24px;
+    padding: 2px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+
+#div_shop, #lb_detail {
+    width: 200px;
+    font-weight: bold;
+    padding-bottom: 10px !important
+}
+
+#div_shop {
+    font-family: ubuntu;
+    background-color: rgba(0, 0, 0, .5);
+    cursor: default;
+    position: absolute
+    color: #fff;
+    top: 14px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 3px;
+    overflow: hidden;
+}
+#div_shop>.header {
+    color: #2196F3;
+    font-size: 30px;
+    font-weight: 500;
+    overflow: hidden
+}
